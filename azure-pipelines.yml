@@ -28,7 +28,7 @@ stages:
 
   - stage: Release
     jobs:
-      - job: 32
+      - job: J2
         pool:
           vmImage: ubuntu-22.04
         steps:
